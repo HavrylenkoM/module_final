@@ -29,7 +29,7 @@ if __name__ == "__main__":
     try:
         play()
     except GameOver:
-        GameOver.save_result
+        pass
     except KeyboardInterrupt:
         pass
     finally:
